@@ -26,8 +26,9 @@ import udacity from "./company/udacity.png";
 import esisba from "./company/esisba.png";
 import tesla from "./company/tesla.png";
 
-import fordgobike from "./fordgobike.png";
+
 import echri from "./echri.png";
+import fordgobike from "./fordgobike.png";
 import emailpd from "./emailpd.png";
 
 export {
