@@ -4,24 +4,23 @@ import {
   creator,
   web,
   javascript,
-  typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  pytorch,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  dlai,
+  esisba,
+  tensorflow,
+  numpy,
+  matplotlib,
+  udacity,
+  emailpd,
+  echri,
+  fordgobike,
   threejs,
 } from "../assets";
 
@@ -31,8 +30,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "formation",
+    title: "Formation",
   },
   {
     id: "contact",
@@ -42,39 +41,39 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Scientist",
+    icon: mobile,
+  },
+  {
+    title: "ML And DL Specialist",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "TensorFlow",
+    icon: tensorflow,
+  },
+  {
+    name: "NumPy",
+    icon: numpy,
+  },
+  {
+    name: "Matplotlib",
+    icon: matplotlib,
   },
   {
     name: "React JS",
@@ -89,8 +88,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
     name: "MongoDB",
@@ -116,112 +115,89 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "AI & Data Scientist Engineer",
+    company_name: "ESI SBA",
+    icon: esisba,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2019 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Applied advanced mathematical concepts and algebraic principles to solve complex problems in AI and data science.",
+      "Proficient in multiple programming languages including Python, Java, JavaScript and PHP, with a focus on developing efficient and scalable solutions for AI applications.",
+      "Implemented SQL and NoSQL databases to manage and analyze structured and unstructured data.",
+      "Worked with big data technologies such as Apache Hadoop and Spark to process and analyze massive datasets.",
+      "Applied machine learning algorithms to solve real-world problems, demonstrating a deep understanding of classification, regression and clustering.",
+      "Applied deep learning algorithms to solve real-world problems, demonstrating a deep understanding of neural networks, complex architectures, encoders-decoders, transformers...",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Data Analyst",
+    company_name: "Udacity",
+    icon: udacity,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "December 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Covered topics such as data wrangling, exploratory data analysis, and data visualization",
+      "Gained experience in Python programming and SQL databases",
+      "Applying multiple analysing and plotting technics",
+      "Introduction into machine learning",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "NLP Specialist",
+    company_name: "DeepLearning.ai",
+    icon: dlai,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2023 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Covered topics such as machine learning and deep learning in NLP, transformers, data processing and many more",
+      "Practical data cleaning and preprocessing",
+      "Applying advanced word embedding technics such as FastText and Word2Vec",
+      "Understanding the Generative Ai and LLM different architectures",
     ],
   },
+
+
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Email Phishing Detection",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Email phishing detection using ML and DL technologies made by 4th year students as a  project of the end of the study year",
     tags: [
       {
-        name: "react",
+        name: "NLP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Deep Learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Machine Learning",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: emailpd,
+    source_code_link: "https://drive.google.com/file/d/1fSd8uBwFbdQQDIE9G0tI16FYF5NXnm7_/view?usp=sharing",
   },
   {
-    name: "Job IT",
+    name: "Echri website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " Currently developing an ecommerce website that allows users to purchase products online with an integrated Epay",
     tags: [
       {
         name: "react",
@@ -232,33 +208,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "laravel",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: echri,
+    source_code_link: "https://github.com/1DoraGON/Echri",
   },
   {
-    name: "Trip Guide",
+    name: "FordGoBike Analysis",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Investigated a Ford GoBike System Data using Python tools such as Pandas,Seaborn and NumPy",
     tags: [
       {
-        name: "nextjs",
+        name: "numpy",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "matplotlib",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fordgobike,
+    source_code_link: "https://github.com/1DoraGON/FordGoBike",
   },
 ];
 

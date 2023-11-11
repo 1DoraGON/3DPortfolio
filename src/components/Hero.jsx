@@ -16,8 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Amir Khalid</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            (Looking for an internship) I am a final-year AI and Data Science student at ESI SBA (Algeria). In addition to my academic pursuits, I have a keen interest in web development. Currently, I am working on a multi-user Ecommerce web application using Laravel and ReactJS. This project involves integrating Epay for payment processing and developing an admin dashboard for data analysis. I am a dedicated learner and thrive on exploring new technologies.
-            Skills: Python, Django, Laravel, ReactJS Data analysis tools (matplotlib, pandas, numpy, etc.), Machine learning (scikit-learn), Deep Learning (TensorFlow, PyTorch).<br /> I’m a passionate learner and love working with new technologies all the time.
+            I am a final-year AI and Data Science student at ESI SBA (Algeria). In addition to my academic pursuits, I have a keen interest in web development. Currently, I am working on a multi-user Ecommerce web application using Laravel and ReactJS. This project involves integrating Epay for payment processing and developing an admin dashboard for data analysis. <br/> I am a dedicated learner and thrive on exploring new technologies.
           </p>
         </div>
       </div>

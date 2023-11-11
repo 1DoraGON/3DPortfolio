@@ -6,6 +6,7 @@ import { projects } from '../constants'
 import { sectionWrapper } from '../hoc'
 import { styles } from '../style'
 import { fadeIn, textVariant } from '../utils/motion'
+import { Link } from 'react-router-dom'
 
 const ProjectCard = ({index, name, description, tags,image , source_code_link , }) =>{
   return (
@@ -50,7 +51,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={styles.sectionHeadText}>Some Projects</h2>
 
       </motion.div>
       <div className="w-full flex">
@@ -58,8 +59,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-           I’m a 4th year Ai and Data science student at ESI SBA (Algeria), I’m also interested on web development, I’m currently working on a Django Ecommerce multi use web app with Epay and admin dashboard for analyzing data. I’m a passionate learner and love working with new technologies all the time.
-           Skills: Python , Django , Laravel , JavaScript , React JS , Data analysis tools (matplotlib pandas numpy …) , Machine learning tools (skitlearn) 
+          Below you can find some of my projects, please note that there are so many projects that I didnt mention here, but I will add them soon, you can find them inside my <a className='underline' href='https://drive.google.com/file/d/1MFr4BwqAK1BKUw00atdnzwr_xquFmM_I/view?usp=sharing'>resume</a> 
 
         </motion.p>
       </div>
