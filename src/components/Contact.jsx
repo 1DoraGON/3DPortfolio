@@ -24,13 +24,13 @@ const Contact = () => {
   const handleSubmit = (e) =>{
     e.preventDefault()
     setLoading(true)
-    emailjs.send('service_kshm8qj','template_1qwar4l',{
+    emailjs.send('service_bfdt81e','template_51d7vnb',{
       from_name: form.name,
       to_name: 'KADI Amir Khalid',
       from_email: form.email,
       to_email: 'amirkhalidkadi@gmail.com',
       message:form.message
-    },'C3bHw_5nrbU4NVe6L')
+    },'IeVI3rUglPwZ68nI9')
     .then(()=>{
       setLoading(false)
       alert('Thanks!')
